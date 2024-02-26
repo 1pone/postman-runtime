@@ -1,8 +1,8 @@
 {
-  "name": "postman-runtime",
+  "name": "@arextest/arex-request-runtime",
   "version": "7.36.3",
   "description": "Underlying library of executing Postman Collections",
-  "author": "Postman Inc.",
+  "author": "arextest",
   "license": "Apache-2.0",
   "main": "index.js",
   "browser": {
@@ -10,16 +10,13 @@
     "postman-request": "./lib/requester/browser/request.js",
     "jose": "./node_modules/jose/dist/browser/bundle.js"
   },
-  "homepage": "https://github.com/postmanlabs/postman-runtime#readme",
-  "bugs": {
-    "email": "help@postman.com"
-  },
+  "homepage": "https://github.com/arextest/arex-request-runtime",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/postmanlabs/postman-runtime.git"
+    "url": "git+https://github.com/arextest/arex-request-runtime.git"
   },
   "keywords": [
-    "postman",
+    "arex",
     "collection",
     "runtime",
     "runner"

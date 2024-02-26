@@ -42,7 +42,7 @@ compiler.run((err) => {
             process.exit(1);
         }
 
-        browserify(INPUT, { standalone: 'PostmanRuntime' }).bundle((err, bundle) => {
+        browserify(INPUT, { standalone: 'ArexRuntime' }).bundle((err, bundle) => {
             if (err) {
                 console.error(err);
                 process.exit(1);
